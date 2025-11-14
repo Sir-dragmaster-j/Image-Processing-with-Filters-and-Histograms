@@ -1,42 +1,79 @@
-Load and display images using OpenCV
+# 🖼️📊 Image Processing with Filters & Histograms
 
-Apply different filters including Gaussian Blur, Edge Detection, and Grayscale
+A simple and effective image processing project using **OpenCV**, **NumPy**, and **Matplotlib**.  
+This project demonstrates how to apply filters, convert images, and visualize histograms directly from a Jupyter Notebook.
 
-Plot histograms for original and filtered images
+---
 
-Visualize processed images and histograms directly within a Jupyter notebook
+## 🎯 Features
+- Load and display images using **OpenCV**
+- Apply filters:
+  - 🟦 Gaussian Blur  
+  - ⚫ Grayscale Conversion  
+  - 🔪 Edge Detection (Canny)
+- Plot **histograms** for:
+  - Original image  
+  - Processed images  
+- Visualize results inside a **Jupyter Notebook**
 
-Getting Started
-Clone the repository:
+---
 
-bash
+## 🚀 Getting Started
 
-Copy
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/yourusername/Image-Processing-Histograms-Filters.git
 cd Image-Processing-Histograms-Filters
-Install dependencies:
+```
 
-bash
-
-Copy
+### 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-Run the Jupyter notebook:
+```
 
-Open the Jupyter notebook in the notebooks directory.
+### 3️⃣ Run the Jupyter Notebook
+- Open the notebook inside the `notebooks/` folder
+- Run cell-by-cell to:
+  - Load images  
+  - Apply filters  
+  - Plot histograms  
+  - Visualize results  
 
-Execute the cells to see the image processing and histogram plots.
+---
 
-Project Structure
-images/ - Directory containing the input images
+## 📁 Project Structure
+```text
+Image-Processing-Histograms-Filters/
+│
+├── images/         # Input images for processing
+├── notebooks/      # Jupyter notebooks (main project code)
+├── scripts/        # Standalone Python scripts for processing
+└── requirements.txt
+```
 
-notebooks/ - Jupyter notebooks with the code and visualization
+---
 
-scripts/ - Python scripts for image processing and plotting
+## 🖼️ Example Outputs
+- Original Image  
+- Grayscale Image  
+- Blurred Image  
+- Edges Image  
+- Histogram of each processed image  
 
-Example Outputs
+*(Add screenshots inside images/ and embed here if needed.)*
 
-Contributing
-Feel free to fork this repository, submit issues, and create pull requests. Contributions are welcome!
+---
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 🤝 Contributing
+Contributions are always welcome!
+
+- Fork the repo  
+- Make your changes  
+- Submit a pull request  
+
+---
+
+## 🏷️ License
+This project is licensed under the **MIT License**.  
+Feel free to modify and reuse with proper attribution.
+
