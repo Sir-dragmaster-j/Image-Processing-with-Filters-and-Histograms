@@ -1,20 +1,30 @@
-# 🖼️📊 Image Processing with Filters & Histograms
+<p align="center">
+  <img src="https://img.icons8.com/?size=200&id=23264&format=png&color=00BFFF" width="120"/>
+</p>
 
-A simple and effective image processing project using **OpenCV**, **NumPy**, and **Matplotlib**.  
-This project demonstrates how to apply filters, convert images, and visualize histograms directly from a Jupyter Notebook.
+<h1 align="center">🖼️📊 Advanced Image Processing with Filters & Histograms</h1>
+<p align="center"><b>A sleek and interactive OpenCV-based image filtering and histogram visualization project</b></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenCV-Image_Processing-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/NumPy-Array_Operations-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Matplotlib-Plotting-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge" />
+</p>
 
 ---
 
-## 🎯 Features
-- Load and display images using **OpenCV**
-- Apply filters:
-  - 🟦 Gaussian Blur  
-  - ⚫ Grayscale Conversion  
-  - 🔪 Edge Detection (Canny)
-- Plot **histograms** for:
+## 🎯 Key Features
+- 🖼️ Load and display images using **OpenCV**
+- 🧪 Apply multiple image filters:
+  - Gaussian Blur  
+  - Grayscale Conversion  
+  - Edge Detection (Canny)
+- 📊 Plot histograms for:
   - Original image  
-  - Processed images  
-- Visualize results inside a **Jupyter Notebook**
+  - Filtered images  
+- 🔍 Visualize results directly inside **Jupyter Notebook**
+- 🧰 Organized project structure for easy experimentation
 
 ---
 
@@ -31,13 +41,14 @@ cd Image-Processing-Histograms-Filters
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Jupyter Notebook
-- Open the notebook inside the `notebooks/` folder
-- Run cell-by-cell to:
+### 3️⃣ Open and run the Jupyter Notebook
+- Go to the `notebooks/` folder  
+- Open the `.ipynb` file  
+- Execute each cell step-by-step to:  
   - Load images  
   - Apply filters  
-  - Plot histograms  
-  - Visualize results  
+  - View histograms  
+  - Display processed outputs  
 
 ---
 
@@ -45,35 +56,42 @@ pip install -r requirements.txt
 ```text
 Image-Processing-Histograms-Filters/
 │
-├── images/         # Input images for processing
-├── notebooks/      # Jupyter notebooks (main project code)
-├── scripts/        # Standalone Python scripts for processing
+├── images/         # Input images for testing
+├── notebooks/      # Jupyter notebooks (main workflow)
+├── scripts/        # Python scripts for filters & histogram utilities
 └── requirements.txt
 ```
 
 ---
 
 ## 🖼️ Example Outputs
-- Original Image  
-- Grayscale Image  
-- Blurred Image  
-- Edges Image  
-- Histogram of each processed image  
+- ✔️ Original Image  
+- ⚫ Grayscale Image  
+- 🟦 Gaussian Blurred Image  
+- 🔪 Canny Edge-Detected Image  
+- 📊 Corresponding histograms for each transformation  
 
-*(Add screenshots inside images/ and embed here if needed.)*
+> (You can add sample output images inside the `images/` folder and embed them here.)
 
 ---
 
 ## 🤝 Contributing
-Contributions are always welcome!
+Want to improve this project?
 
 - Fork the repo  
-- Make your changes  
+- Add new filters  
+- Improve visualizations  
 - Submit a pull request  
+
+Community contributions are always welcome!
 
 ---
 
 ## 🏷️ License
 This project is licensed under the **MIT License**.  
-Feel free to modify and reuse with proper attribution.
+You are free to use, modify, and distribute with proper attribution.
+
+---
+
+<p align="center"><b>✨ Simple, powerful, and perfect for learning image processing fundamentals.</b></p>
 
